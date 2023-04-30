@@ -1,0 +1,44 @@
+#title {
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-add,
+.smartphone-container {
+    margin: 2%;
+}
+
+.card-add-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-submit {
+    align-self: flex-end;
+}
+
+.smartphone-container {
+    display: flex;
+    gap: 16px;
+}
+
+.smartphone-card{
+    max-width: 33%;
+}
+
+.smartphone-card-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.smartphone-card-price{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.smartphone-card-title{
+    font-weight: bold;
+    font-size: 1rem;
+}
